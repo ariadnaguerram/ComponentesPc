@@ -1,0 +1,73 @@
+
+export const dataBase = [
+    {
+        id: 1,
+        nombre: 'ASUS ROG',
+        imagen: 'productoprinc',
+        descripcion: 'Placa base ASUS ROG Strix B650E-F Gaming WiFi AMD Ryzen AM5 ATX, 12 + 2 etapas de potencia, DDR5, tres ranuras M.2, PCIe® 5.0, WiFi 6E',
+        precio: 229,
+    },
+    {
+        id: 2,
+        nombre: ' PROCESADOR AMD RYZEN 7',
+        imagen: 'componente1',
+        descripcion: 'Procesador AMD Ryzen 7 5800X 3.8GHz',
+        precio: 203.30,
+    },
+    {
+        id: 3,
+        nombre: 'REFRIGERACIÓN LIQUIDA',
+        imagen: 'componente2',
+        descripcion: 'Tempest Liquid Cooler 360 ARGB Kit de Refrigeración Líquida Blanco',
+        precio: 107.90,
+    },
+    {
+        id: 4,
+        nombre: 'CAJA TEMPEST',
+        imagen: 'componente3',
+        descripcion: 'Tempest Rampart ARGB M-ATX Cristal Templado USB 3.0 Blanca',
+        precio: 49.99,
+    },
+    {
+        id: 5,
+        nombre: 'Sound BlasterX AE-5 - Tarjeta de sonido interna para gaming PCIe',
+        imagen: 'componente4',
+        descripcion: 'DAC clase SABRE/amplificador de auriculares (16-600 Ohm) ncluye una tira LED RGB para su PC (color negro)',
+        precio: 180,
+    },
+    {
+        id: 6,
+        nombre: 'Corsair Vengeance DDR5 6000MHz 32GB',
+        imagen: 'componente5',
+        descripcion: 'CORSAIR VENGEANCE DDR5, optimizada para placas base AMD/Intel',
+        precio: 153,
+    },
+    {
+        id: 7,
+        nombre: 'SABRENT 2280 M.2 NVMe SSD 2TB 2280 Gen 4',
+        imagen: 'componente6',
+        descripcion: 'Disco Duro Interno PCIe 4.0 para Gamers, Compatible con PS5, PCs, NUCs portátiles y de sobremesa',
+        precio: 258,
+    },
+    {
+        id: 8,
+        nombre: 'CORSAIR RM1000E',
+        imagen: 'componente7',
+        descripcion: 'Alimentación ATX Totalmente Modular de Bajo Ruido - Compatible con ATX 3.0 y PCIe 5.0 - Eficiencia 80 Plus Gold - Soporte para Modo de Espera Moderno - Negro',
+        precio: 299,
+    },
+    {
+        id: 9,
+        nombre: 'Noctua NF-F12 PWM Industrial PPC 120mm 2000RPM',
+        imagen: 'componente8',
+        descripcion: 'NF-F12 industrialPPC (Refrigeración de rendimiento protegido) de Noctua es una versión robusta y de alta velocidad',
+        precio: 35,
+    },
+    {
+        id: 10,
+        nombre: 'NOX XTREME PRODUCTS Hummer Astra',
+        imagen: 'componente9',
+        descripcion: 'Semitorre Micro ATX, ATX, Lateral y Frontal de Cristal Templado, Ventiladores CPU EASYLINK LED ARGB, hasta 10 Ventiladores, graficas Gran tamaño, USB 3.0, Blanco',
+        precio: 349,
+    },
+]
