@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .fw-black {
   font-weight: 900;
 }
@@ -150,7 +151,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
  h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -316,19 +317,15 @@ button:not(:disabled),
   height: auto;
 }
 
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-  opacity: 0.5; /* Ajusta la opacidad según sea necesario */
-}
+
 .container-xl {
-  position: relative;
-overflow: hidden;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 1200px) {
